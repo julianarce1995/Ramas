@@ -1,14 +1,33 @@
 body {
     background-color: peru;
+    color: white;
 }
 
 h1 {
     text-align: center;
-    font-size: 36px;
-    color: white;
+    font-size: 70px;
+}
+
+.fotosTxt {
+    font-size: 28px;
+    text-align: center;
 }
 
 .banner {
     width: 100%;
     height: 500px;
+}
+
+.branch-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ramas {
+    width: 24%;
+    height: 300px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
 }
