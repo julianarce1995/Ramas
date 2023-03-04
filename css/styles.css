@@ -54,3 +54,9 @@ form input {
 form label {
     font-size: 35px;
 }
+form .button {
+    width: 150px;
+    background-color: rgba(4, 105, 105, 0.77);
+    color: white;
+    font-size: 20px;
+}
